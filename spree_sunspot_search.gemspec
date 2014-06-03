@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 2.2.2'
+  s.add_dependency 'spree_core', '>= 2-1-stable'
   s.add_dependency 'sunspot_rails', '>= 2.1.1'
 
   s.add_development_dependency 'capybara', '1.0.1'
@@ -23,5 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'rspec-rails',  '~> 2.8'
   s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'sunspot_solr', '>= 2.1.1'
+  s.add_development_dependency 'sunspot_solr', '>= 2-1-stable'
 end
